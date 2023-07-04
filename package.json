@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^1.2.0",
+    "@types/react-scroll": "^1.8.7",
     "eslint": "^8.44.0",
     "prettier-plugin-tailwindcss": "^0.3.0"
   }
