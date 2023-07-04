@@ -33,6 +33,23 @@
     --background-start-rgb: 24, 24,27;
     --background-end-rgb: 39,39,42;
   }
+  html {
+    color-scheme: dark;
+  }
+}
+
+
+/* If the user prefers light mode,
+we still enforce color-scheme: dark, despite the user preference */
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 24, 24,27;
+    --background-end-rgb: 39,39,42;
+  }
+  html {
+    color-scheme: dark;
+  }
 }
 
 body {
