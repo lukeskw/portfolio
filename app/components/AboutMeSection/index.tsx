@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+// @ts-ignore
 import { Element } from 'react-scroll'
 import profilePic from 'assets/images/profile-pic.jpg'
 
