@@ -28,7 +28,7 @@ export default function ArticleCard({
           width={350}
           height={300}
           alt="DevTo cover image"
-          className="rounded-lg"
+          className="rounded-lg border-b-2  border-zinc-800"
         />
         <div className="p-2">
           <strong className="text-center text-sm text-slate-200 md:text-lg">
