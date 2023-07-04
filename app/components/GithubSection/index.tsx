@@ -51,7 +51,7 @@ export default async function GithubSection() {
                   key={repos.id}
                   name={repos.name}
                   description={repos.description}
-                  languages={repos.languages}
+                  languages={repos.languages ?? []}
                   url={repos.html_url}
                 />
               )

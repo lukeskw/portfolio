@@ -3,7 +3,7 @@ import ContactSection from './components/ContactSection'
 import DevToSection from './components/DevToSection'
 import ExperienceSection from './components/ExperienceSection'
 import GithubSection from './components/GithubSection'
-import Header from './components/Header'
+// import Header from './components/Header'
 
 export default function Home() {
   return (
