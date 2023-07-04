@@ -34,7 +34,7 @@
     --background-end-rgb: 39,39,42;
   }
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }
 
@@ -48,7 +48,7 @@ we still enforce color-scheme: dark, despite the user preference */
     --background-end-rgb: 39,39,42;
   }
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }
 
