@@ -30,13 +30,16 @@ export default function AboutMeSection() {
             just 20 years old.I hold a bachelor's degree in Computer Information
             Systems from Unifoa, and for the past two years,I have been working
             as a full-stack developer at CityConnect. Challenges fuel my drive,
-            and I thrive in problem-solving scenarios. Whether it's tackling
-            complex coding issues or finding innovative solutions, I'm always up
-            for the challenge. When I'm not engrossed in coding, you'll likely
-            find me enjoying a cup of coffee, playing League of Legends or
-            Squad, or spending quality time with my beloved cat named Kiki. I'm
-            excited to connect with like-minded individuals, collaborate on new
-            projects, and continue my journey as a software engineer😊
+            and I thrive in problem-solving scenarios.
+            <br />
+            <br />
+            Whether it's tackling complex coding issues or finding innovative
+            solutions, I'm always up for the challenge. When I'm not engrossed
+            in coding, you'll likely find me enjoying a cup of coffee, playing
+            League of Legends or Squad, or spending quality time with my beloved
+            cat named Kiki. I'm excited to connect with like-minded individuals,
+            collaborate on new projects, and continue my journey as a software
+            engineer😊
           </p>
         </div>
       </section>
