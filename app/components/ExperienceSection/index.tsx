@@ -67,7 +67,10 @@ export default function ExperienceSection() {
               With a strong web development proficiency in HTML5, CSS3, JS, PHP,
               Laravel, and Blade, I've created impactful websites for regional
               companies. Specialized in introducing new functionalities and
-              enhancing their online presence.
+              enhancing their online presence. My initial role was a backend
+              developer, but with my growing desire to learn, I began immersing
+              myself in the frontend world, and in the end, I was already
+              tinkering with the frontend and layouts of the websites.
               <br />
               Additionally, I've excelled in comprehensive website maintenance,
               focusing on optimizing user experiences. My technical expertise
