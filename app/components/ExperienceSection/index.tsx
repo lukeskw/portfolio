@@ -45,8 +45,9 @@ export default function ExperienceSection() {
               Docker containerization.
               <br />
               <br />
-              <b>Skills:</b> Scrum, Frontend Development, Git, Docker, Drupal,
-              MySQL, Laravel, React.js, TailwindCSS.
+              <b>Skills:</b> Laravel, React.js, TailwindCSS, EC2, Jquery, Scrum,
+              Frontend and Backend Development, Git, Docker, Drupal, MySQL,
+              PostgreSQL.
             </p>
           </div>
           <div
@@ -60,7 +61,7 @@ export default function ExperienceSection() {
               Backend developer at Tatica Web
             </h2>
             <h4 className="ml-3 pb-4 text-sm md:ml-0 md:text-base">
-              Nov 2020 - Jun 2021
+              Apr 2020 - Jun 2021
             </h4>
             <p className="p-2 text-justify text-xs md:p-4 md:text-sm lg:text-base">
               With a strong web development proficiency in HTML5, CSS3, JS, PHP,
@@ -75,8 +76,8 @@ export default function ExperienceSection() {
               satisfaction.
               <br />
               <br />
-              <b>Skills:</b> HTML, CSS3, PHP 7, JS, Jquery, Git, MySQL, Laravel,
-              Blade.
+              <b>Skills:</b> HTML, CSS3, PHP 5.4 - 7.4, JS, Jquery, Git, MySQL,
+              Laravel, Blade.
             </p>
           </div>
           <div
@@ -105,7 +106,7 @@ export default function ExperienceSection() {
               transition.
               <br />
               <br />
-              <b>Skills:</b> Scrum, Kanban, MV Systems, Oracle Database, PL/SQL
+              <b>Skills:</b> Scrum, Kanban, MV Systems, Oracle Database, PL/SQL.
             </p>
           </div>
         </div>
