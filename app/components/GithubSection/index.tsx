@@ -16,9 +16,8 @@ async function getRepositories(username: string): Promise<GithubApiReturn[]> {
     { next: { revalidate: 300 } },
   )
   const repositories = await response.json()
-
   const data = await Promise.all(
-    repositories.map(async (repo: GithubApiReturn) => {
+    repositories.reverse().map(async (repo: GithubApiReturn) => {
       const languagesResponse = await fetch(repo.languages_url)
       const languagesData = await languagesResponse.json()
       const languages = Object.keys(languagesData)
@@ -45,17 +44,20 @@ export default async function GithubSection() {
       <div className="grid grid-cols-1 items-center justify-center gap-8 sm:p-2 md:p-8 lg:grid-cols-2">
         {reposList.length > 0 ? (
           <>
-            {reposList.slice(-6).map((repos, index) => {
-              return (
-                <GithubCard
-                  key={repos.id}
-                  name={repos.name}
-                  description={repos.description}
-                  languages={repos.languages ?? []}
-                  url={repos.html_url}
-                />
-              )
-            })}
+            {reposList
+              .slice(-6)
+              .reverse()
+              .map((repos, index) => {
+                return (
+                  <GithubCard
+                    key={repos.id}
+                    name={repos.name}
+                    description={repos.description}
+                    languages={repos.languages ?? []}
+                    url={repos.html_url}
+                  />
+                )
+              })}
           </>
         ) : (
           <p className="text-center text-lg font-bold">
