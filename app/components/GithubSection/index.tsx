@@ -12,7 +12,7 @@ interface GithubApiReturn {
 
 async function getRepositories(username: string): Promise<GithubApiReturn[]> {
   const response = await fetch(
-    `https://api.github.com/users/${username}/repos`,
+    `https://api.github.com/users/${username}/repos?sort=updated`,
     { next: { revalidate: 300 } },
   )
   const repositories = await response.json()
