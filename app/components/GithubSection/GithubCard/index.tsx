@@ -31,7 +31,7 @@ export default function GithubCard({
           <div className="space-x-2">
             {languages?.length > 0 && (
               <>
-                {languages?.slice(-4).map((language, index) => {
+                {languages?.slice(0, 4).map((language, index) => {
                   return (
                     <span
                       key={index}
