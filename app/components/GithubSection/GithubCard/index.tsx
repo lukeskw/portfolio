@@ -1,6 +1,13 @@
 'use client'
 import { GitCommit, LinkSimple } from '@phosphor-icons/react'
 
+function truncateString(str: string, maxLength: number): string {
+  if (str.length <= maxLength) {
+    return str
+  }
+  return str.slice(0, maxLength - 3) + '...'
+}
+
 export default function GithubCard({
   name,
   description,
@@ -26,9 +33,11 @@ export default function GithubCard({
             <LinkSimple size={16} className="justify-items-end" />
           </div>
           <p className="my-4 text-sm text-slate-200 md:text-base">
-            {description}
+            {description && description?.length > 80
+              ? truncateString(description, 80)
+              : description}
           </p>
-          <div className="space-x-2">
+          <div className="space-x-2 space-y-2">
             {languages?.length > 0 && (
               <>
                 {languages?.slice(0, 4).map((language, index) => {
