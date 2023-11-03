@@ -12,16 +12,13 @@ import {
 } from '@phosphor-icons/react'
 
 import { Link } from 'react-scroll'
+import { t } from '@/app/translations/translation'
+import { LanguageProps } from '@/app/@types/language'
 
-// const poppins = Poppins({
-//   subsets: ['latin'],
-//   variable: '--font-poppins',
-// })
-
-export default function ContactSection() {
+export default function ContactSection({ language: lang }: LanguageProps) {
   return (
     <section className="flex h-[90vh] items-center justify-center">
-      <div className="-mt-16 flex flex-col items-center justify-center gap-5 lg:mt-0">
+      <div className="mt-16 flex flex-col items-center justify-center gap-5 md:-mt-16 lg:mt-0 lg:w-[600px]">
         <Image
           src={logoImg}
           width={300}
@@ -33,19 +30,19 @@ export default function ContactSection() {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .typeString('Computer Information Systems Bachelor')
+                .typeString(t[lang]?.typeWriter?.firstSentence)
                 .pauseFor(2500)
                 .deleteAll()
 
-                .typeString('Software Developer')
+                .typeString(t[lang]?.typeWriter?.secondSentence)
                 .pauseFor(2500)
                 .deleteAll()
 
-                .typeString('Tech Content Creator')
+                .typeString(t[lang]?.typeWriter?.thirdSentence)
                 .pauseFor(2500)
                 .deleteAll()
 
-                .typeString('Nice to see you around here!')
+                .typeString(t[lang]?.typeWriter?.fourthSentence)
                 .pauseFor(2500)
                 .deleteAll()
 

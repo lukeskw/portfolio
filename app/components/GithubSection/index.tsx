@@ -1,4 +1,6 @@
+import { LanguageProps } from '@/app/@types/language'
 import GithubCard from './GithubCard'
+import { t } from '@/app/translations/translation'
 
 interface GithubApiReturn {
   id: number
@@ -28,7 +30,7 @@ async function getRepositories(username: string): Promise<GithubApiReturn[]> {
   return data as GithubApiReturn[]
 }
 
-export default async function GithubSection() {
+export default async function GithubSection({ language: lang }: LanguageProps) {
   const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME as string
   const reposList = await getRepositories(username)
 
@@ -39,13 +41,13 @@ export default async function GithubSection() {
           via-slate-500 to-slate-700 bg-clip-text text-center font-sans text-3xl font-bold
              text-transparent md:text-4xl lg:text-5xl"
       >
-        My Projects on Git
+        {t[lang]?.git?.title}
       </h2>
-      <div className="grid grid-cols-1 items-center justify-center gap-8 sm:p-2 md:p-8 lg:grid-cols-2">
+      <div className="grid grid-cols-1 items-center justify-center gap-8 sm:p-2 md:p-8 lg:grid-cols-2 xl:grid-cols-3">
         {reposList.length > 0 ? (
           <>
             {reposList
-              .slice(-6)
+              .slice(-9)
               .reverse()
               .map((repos, index) => {
                 return (
@@ -61,7 +63,7 @@ export default async function GithubSection() {
           </>
         ) : (
           <p className="text-center text-lg font-bold">
-            Não foram encontrados repositórios!
+            {t[lang]?.git?.noProjects}
           </p>
         )}
       </div>
