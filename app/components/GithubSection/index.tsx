@@ -17,9 +17,7 @@ async function getRepositories(username: string): Promise<GithubApiReturn[]> {
     `https://api.github.com/users/${username}/repos?sort=updated`,
     { next: { revalidate: 300 } },
   )
-  if(!response.ok) {
-    throw new Error('Network response was not ok')
-  }
+
   const repositories = await response.json()
   const data = await Promise.all(
     repositories.reverse().map(async (repo: GithubApiReturn) => {
