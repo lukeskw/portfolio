@@ -12,6 +12,15 @@ export type translationType = {
       second: string
     }
   }
+  experience: {
+    title: string
+    description: string
+    languages: {
+      name: string
+      years: number
+    }[]
+    errorMsg: string
+  }
   workExperiences: {
     title: string
     firstExperience: {

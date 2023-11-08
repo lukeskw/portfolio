@@ -1,3 +1,4 @@
+import { text } from 'stream/consumers'
 import { translationType } from '../@types/translation'
 
 export const t: Record<string, translationType> = {
@@ -12,10 +13,43 @@ export const t: Record<string, translationType> = {
       title: "Hello there! I'm Luke",
       text: {
         first:
-          "Allow me to introduce myself! I'm a passionate software engineer who has been immersed in the world of technology since 2018, when I was just 20 years old.I hold a bachelor's degree in Computer Information Systems from Unifoa, and for the past two years,I have been working as a full-stack developer at CityConnect. Challenges fuel my drive, and I thrive in problem-solving scenarios.",
+          "Allow me to introduce myself! I'm a passionate software engineer who has been immersed in the world of technology since 2018, when I was just 19 years old.I hold a bachelor's degree in Computer Information Systems, which I got back in 2019, and for the past two years,I have been working as a full-stack developer at CityConnect. Challenges fuel my drive, and I thrive in problem-solving scenarios.",
         second:
-          "Whether it's tackling complex coding issues or finding innovative solutions, I'm always up for the challenge. When I'm not coding, you'll likely find me enjoying a cup of coffee, playing League of Legends or Squad, or spending some time with my beloved cat named Kiki. I'm excited to connect with like-minded individuals, collaborate on new projects, and continue my journey as a software engineer😊",
+          "Whether it's tackling complex coding issues or finding innovative solutions, I'm always up for the challenge. When I'm not coding, you'll likely find me enjoying a cup of coffee, playing League of Legends or Squad, or spending some time with my beloved wife, and with my cat named Kiki. I'm excited to connect with like-minded individuals, collaborate on new projects, and continue my journey as a software engineer😊",
       },
+    },
+    experience: {
+      title: 'Experience',
+      description: `5 years working in the IT area, and 4 as a
+      Software Developer, in
+      companys such as Unimed and City Connect.`,
+      errorMsg: 'Error while fetching data!',
+      languages: [
+        {
+          name: 'react',
+          years: 2,
+        },
+        {
+          name: 'javascript',
+          years: 3,
+        },
+        {
+          name: 'typescript',
+          years: 1,
+        },
+        {
+          name: 'php',
+          years: 4,
+        },
+        {
+          name: 'laravel',
+          years: 3,
+        },
+        {
+          name: 'mysql',
+          years: 3,
+        },
+      ],
     },
     workExperiences: {
       title: 'My Work Experiences',
@@ -69,10 +103,41 @@ export const t: Record<string, translationType> = {
       title: 'Olá! Sou o Luke',
       text: {
         first:
-          'Permita-me me apresentar! Sou um apaixonado engenheiro de software que está imerso no mundo da tecnologia desde 2018, quando tinha apenas 20 anos. Tenho um diploma de bacharel em Sistemas de Informação em Computação pela Unifoa e, nos últimos dois anos, tenho trabalhado como desenvolvedor full-stack na CityConnect. Desafios alimentam minha motivação, e prospero em cenários de resolução de problemas.',
+          'Permita-me me apresentar! Sou um apaixonado engenheiro de software que está imerso no mundo da tecnologia desde 2018, quando tinha apenas 19 anos. Tenho um diploma de bacharel em Sistemas de Informação em Computação que consegui em 2019 e, nos últimos dois anos, tenho trabalhado como desenvolvedor full-stack na CityConnect. Desafios alimentam minha motivação, e prospero em cenários de resolução de problemas.',
         second:
-          'Seja enfrentando problemas complexos de programação ou encontrando soluções inovadoras, estou sempre pronto para o desafio. Quando não estou programando, é provável que me encontre desfrutando de uma xícara de café, jogando League of Legends ou Squad, ou passando um tempo com minha gatinha chamada Kiki. Fico muito empolgado em me conectar com pessoas de mentalidade semelhante, colaborar em novos projetos e continuar minha jornada como engenheiro de software 😊',
+          'Seja enfrentando problemas complexos de programação ou encontrando soluções inovadoras, estou sempre pronto para o desafio. Quando não estou programando, é provável que me encontre tomando uma boa xícara de café, jogando League of Legends ou Squad, ou passando um tempo com minha querida esposa e minha gatinha chamada Kiki. Fico muito empolgado em me conectar com pessoas de mentalidade parecida, em colaborar em novos projetos e continuar minha jornada como engenheiro de software 😊',
       },
+    },
+    experience: {
+      title: 'Experiência',
+      description: `Trabalho a 5 anos na área de TI, e há 4 anos trabalho como um Software Developer, em empresas como a Unimed e a City Connect.`,
+      errorMsg: 'Erro na busca dos dados!',
+      languages: [
+        {
+          name: 'react',
+          years: 2,
+        },
+        {
+          name: 'javascript',
+          years: 3,
+        },
+        {
+          name: 'typescript',
+          years: 1,
+        },
+        {
+          name: 'php',
+          years: 4,
+        },
+        {
+          name: 'laravel',
+          years: 3,
+        },
+        {
+          name: 'mysql',
+          years: 3,
+        },
+      ],
     },
     workExperiences: {
       title: 'Experiências de Trabalho',

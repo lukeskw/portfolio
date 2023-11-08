@@ -10,7 +10,7 @@ interface DevToApiReturn {
   public_reactions_count: number
   published_at: string
   cover_image: string
-  [key: string]: any
+  [key: string]: object | string | number
 }
 
 async function getArticles(username: string): Promise<DevToApiReturn[]> {
@@ -38,7 +38,7 @@ export default async function DevToSection({ language: lang }: LanguageProps) {
       <div className="grid grid-cols-1 items-center justify-center gap-8 sm:p-2 md:p-8 lg:grid-cols-2 xl:grid-cols-3">
         {articlesList.length > 0 ? (
           <>
-            {articlesList.slice(-6).map((article, index) => {
+            {articlesList.slice(-6).map((article) => {
               return (
                 <ArticleCard
                   key={article.id}

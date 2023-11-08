@@ -26,7 +26,7 @@ export default function AboutMeSection({ language: lang }: LanguageProps) {
           >
             {t[lang]?.aboutMeSection?.title}
           </h2>
-          <p className="text-justify text-slate-200">
+          <p className="text-justify text-slate-200 lg:text-lg">
             {t[lang]?.aboutMeSection?.text.first}
             <br />
             <br />

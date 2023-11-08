@@ -3,6 +3,7 @@ import AboutMeSection from '../components/AboutMeSection'
 import ContactSection from '../components/ContactSection'
 import DevToSection from '../components/DevToSection'
 import ExperienceSection from '../components/ExperienceSection'
+import WorkExperienceSection from '../components/WorkExperienceSection'
 import GithubSection from '../components/GithubSection'
 import Header from '../components/Header'
 
@@ -21,6 +22,7 @@ export default async function Home({
       <ContactSection language={lang} />
       <AboutMeSection language={lang} />
       <ExperienceSection language={lang} />
+      <WorkExperienceSection language={lang} />
       <DevToSection language={lang} />
       <GithubSection language={lang} />
     </main>
