@@ -20,6 +20,8 @@ export type translationType = {
       years: number
     }[]
     errorMsg: string
+    year: string
+    yearPlural: string
   }
   workExperiences: {
     title: string

@@ -23,6 +23,8 @@ export const t: Record<string, translationType> = {
       Software Developer, in
       companys such as Unimed and City Connect.`,
       errorMsg: 'Error while fetching data!',
+      year: 'year',
+      yearPlural: 'years',
       languages: [
         {
           name: 'react',
@@ -111,6 +113,8 @@ export const t: Record<string, translationType> = {
       title: 'Experiência',
       description: `Trabalho a 5 anos na área de TI, e há 4 anos trabalho como um Software Developer, em empresas como a Unimed e a City Connect.`,
       errorMsg: 'Erro na busca dos dados!',
+      year: 'ano',
+      yearPlural: 'anos',
       languages: [
         {
           name: 'react',

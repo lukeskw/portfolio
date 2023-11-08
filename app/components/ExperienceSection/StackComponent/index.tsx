@@ -48,7 +48,9 @@ export function StackComponent({ language }: StackComponentProps) {
         bg-gradient-to-br from-slate-300 via-slate-500 to-slate-800`}
             >
               <span className="font-semibold text-white">
-                {stack.years > 1 ? `${stack.years} anos` : `${stack.years} ano`}
+                {stack.years > 1
+                  ? `${stack.years} ${t[language]?.experience?.yearPlural}`
+                  : `${stack.years} ${t[language]?.experience?.year}`}
               </span>
             </div>
           </div>
