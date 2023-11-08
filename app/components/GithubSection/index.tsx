@@ -9,13 +9,17 @@ interface GithubApiReturn {
   html_url: string
   languages_url: string
   languages?: string[]
-  [key: string]: any
 }
 
 async function getRepositories(username: string): Promise<GithubApiReturn[]> {
   const response = await fetch(
     `https://api.github.com/users/${username}/repos?sort=updated`,
-    { next: { revalidate: 300 } },
+    {
+      next: { revalidate: 300 },
+      headers: {
+        Authorization: `Bearer ${process.env.NEXT_PUBLIC_GITHUB_PAT as string}`,
+      },
+    },
   )
 
   const repositories = await response.json()
@@ -50,7 +54,7 @@ export default async function GithubSection({ language: lang }: LanguageProps) {
             {reposList
               .slice(-9)
               .reverse()
-              .map((repos, index) => {
+              .map((repos) => {
                 return (
                   <GithubCard
                     key={repos.id}

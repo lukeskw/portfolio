@@ -1,4 +1,3 @@
-import { text } from 'stream/consumers'
 import { translationType } from '../@types/translation'
 
 export const t: Record<string, translationType> = {

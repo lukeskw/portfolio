@@ -1,6 +1,5 @@
 'use client'
 import Image from 'next/image'
-// @ts-ignore
 import { Element } from 'react-scroll'
 import profilePic from 'assets/images/new-profile-pic.png'
 import { LanguageProps } from '@/app/@types/language'
