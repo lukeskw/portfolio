@@ -24,9 +24,9 @@ export default function ContactSection({ language: lang }: LanguageProps) {
           width={300}
           height={300}
           alt="PorfirioDEV logo"
-          className=""
+          className="scale-125 invert lg:scale-150"
         />
-        <div className="text-md flex min-h-[30px] max-w-[500px] justify-center md:text-2xl">
+        <div className="flex min-h-[30px] max-w-[500px] justify-center text-lg md:text-2xl">
           <Typewriter
             onInit={(typewriter) => {
               typewriter
