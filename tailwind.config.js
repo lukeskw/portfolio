@@ -6,6 +6,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  safelist: ['w-1/4', 'w-2/4', 'w-3/4', 'w-full'],
   theme: {
     extend: {
       backgroundImage: {
@@ -14,10 +15,10 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       width: {
-        'icon': '36px'
+        icon: '36px',
       },
       height: {
-        'icon': '36px'
+        icon: '36px',
       },
     },
   },
