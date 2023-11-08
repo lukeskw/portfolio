@@ -21,11 +21,11 @@ export default function AboutMeSection({ language: lang }: LanguageProps) {
         <div className="max-w-xl flex-row items-center justify-center px-2">
           <h2
             className="mb-2 bg-gradient-to-br from-slate-500 via-slate-500
-        to-slate-700 bg-clip-text text-center font-sans text-4xl font-bold text-transparent md:text-5xl"
+        to-slate-700 bg-clip-text text-center font-sans text-3xl font-bold text-transparent md:text-4xl lg:text-5xl"
           >
             {t[lang]?.aboutMeSection?.title}
           </h2>
-          <p className="text-justify text-slate-200 lg:text-lg">
+          <p className="text-justify text-base text-slate-200 lg:text-lg">
             {t[lang]?.aboutMeSection?.text.first}
             <br />
             <br />

@@ -101,7 +101,7 @@ export const t: Record<string, translationType> = {
       fourthSentence: 'Ótimo te ver por aqui!',
     },
     aboutMeSection: {
-      title: 'Olá! Sou o Luke',
+      title: 'Olá! Meu nome é Luke',
       text: {
         first:
           'Permita-me me apresentar! Sou um apaixonado engenheiro de software que está imerso no mundo da tecnologia desde 2018, quando tinha apenas 19 anos. Tenho um diploma de bacharel em Sistemas de Informação em Computação que consegui em 2019 e, nos últimos dois anos, tenho trabalhado como desenvolvedor full-stack na CityConnect. Desafios alimentam minha motivação, e prospero em cenários de resolução de problemas.',

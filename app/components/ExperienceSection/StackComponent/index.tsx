@@ -1,25 +1,9 @@
 import Image from 'next/image'
 import { t } from '@/app/translations/translation'
+import { getStackIcon } from '@/app/utils/getStackIcon'
 
 interface StackComponentProps {
   language: string
-}
-
-function getStackIcon(name: string): string {
-  type StackIconsProps = {
-    [key: string]: string
-  }
-
-  const stackIcons: StackIconsProps = {
-    react: require('@/assets/images/react-icon.svg'),
-    javascript: require('@/assets/images/javascript-icon.svg'),
-    typescript: require('@/assets/images/typescript-icon.svg'),
-    php: require('@/assets/images/php-icon.svg'),
-    laravel: require('@/assets/images/laravel-icon.svg'),
-    mysql: require('@/assets/images/mysql-icon.svg'),
-  }
-
-  return stackIcons[name] || ''
 }
 
 export function StackComponent({ language }: StackComponentProps) {

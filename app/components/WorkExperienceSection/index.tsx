@@ -3,7 +3,7 @@ import { t } from '@/app/translations/translation'
 
 export default function ExperienceSection({ language: lang }: LanguageProps) {
   return (
-    <section className="mb-16 mt-32 flex w-full items-center justify-center">
+    <section className="mb-16 mt-16 flex w-full items-center justify-center lg:mt-32">
       <div
         className="h-[auto] max-w-[100%] rounded-[2rem] bg-zinc-700 px-4
       py-6 shadow-xl shadow-zinc-950 md:p-16 lg:max-w-[80%]"
@@ -27,13 +27,13 @@ export default function ExperienceSection({ language: lang }: LanguageProps) {
             before:content-[''] md:px-8
             "
           >
-            <h2 className="ml-3 text-base font-bold md:ml-0 md:text-xl lg:text-2xl">
+            <h2 className="ml-3 text-lg font-bold md:ml-0 md:text-xl lg:text-2xl">
               {t[lang]?.workExperiences?.thirdExperience?.title}
             </h2>
-            <h4 className="ml-3 pb-4 text-sm md:ml-0 md:text-base">
+            <h4 className="ml-3 pb-4 text-base md:ml-0 md:text-lg">
               {t[lang]?.workExperiences?.thirdExperience?.date}
             </h4>
-            <p className="rounded-lg p-2 text-justify text-xs md:bg-zinc-800 md:p-4 md:text-sm lg:text-base">
+            <p className="rounded-lg p-2 text-justify text-sm md:bg-zinc-800 md:p-4 md:text-base lg:text-lg">
               {t[lang]?.workExperiences?.thirdExperience?.description}
               <br />
               <br />
@@ -50,13 +50,13 @@ export default function ExperienceSection({ language: lang }: LanguageProps) {
             before:content-[''] md:px-8
             "
           >
-            <h2 className="ml-3 text-base font-bold md:ml-0 md:text-xl lg:text-2xl">
+            <h2 className="ml-3 text-lg font-bold md:ml-0 md:text-xl lg:text-2xl">
               {t[lang]?.workExperiences?.secondExperience?.title}
             </h2>
-            <h4 className="ml-3 pb-4 text-sm md:ml-0 md:text-base">
+            <h4 className="ml-3 pb-4 text-base md:ml-0 md:text-lg">
               {t[lang]?.workExperiences?.secondExperience?.date}
             </h4>
-            <p className="p-2 text-justify text-xs md:p-4 md:text-sm lg:text-base">
+            <p className="p-2 text-justify text-sm md:p-4 md:text-base lg:text-lg">
               {t[lang]?.workExperiences?.secondExperience?.description}
               <br />
               <br />
@@ -73,13 +73,13 @@ export default function ExperienceSection({ language: lang }: LanguageProps) {
             before:content-[''] md:px-8
             "
           >
-            <h2 className="ml-3 text-base font-bold md:ml-0 md:text-xl lg:text-2xl">
+            <h2 className="ml-3 text-lg font-bold md:ml-0 md:text-xl lg:text-2xl">
               {t[lang]?.workExperiences?.firstExperience?.title}
             </h2>
-            <h4 className="ml-3 pb-4 text-sm md:ml-0 md:text-base ">
+            <h4 className="ml-3 pb-4 text-base md:ml-0 md:text-lg">
               {t[lang]?.workExperiences?.firstExperience?.date}
             </h4>
-            <p className="p-2 text-justify text-xs md:p-4 md:text-sm lg:text-base">
+            <p className="p-2 text-justify text-sm md:p-4 md:text-base lg:text-lg">
               {t[lang]?.workExperiences?.firstExperience?.description}
               <br />
               <br />
