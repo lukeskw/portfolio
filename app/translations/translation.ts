@@ -89,6 +89,8 @@ export const t: Record<string, translationType> = {
     },
     devTo: {
       title: 'My Posts on Dev.to',
+      reactions: 'Reactions',
+      pubDate: 'Publication date',
       noArticles: 'No articles were found',
     },
     git: { title: 'My Projects on Git', noProjects: 'No projects were found' },
@@ -179,6 +181,8 @@ export const t: Record<string, translationType> = {
     },
     devTo: {
       title: 'Meus Posts no Dev.to',
+      reactions: 'Reações',
+      pubDate: 'Date de Publicação',
       noArticles: 'Não foram encontrados artigos!',
     },
     git: {

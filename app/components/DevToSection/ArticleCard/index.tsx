@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { t } from '@/app/translations/translation'
 
 export default function ArticleCard({
   title,
@@ -6,12 +7,14 @@ export default function ArticleCard({
   reactions,
   url,
   coverImage,
+  lang,
 }: {
   title: string
   publicationDate: string
   reactions: number
   url: string
   coverImage: string
+  lang: string
 }) {
   const date = new Date(publicationDate)
   const formattedDate = new Intl.DateTimeFormat('en-GB', {
@@ -22,23 +25,23 @@ export default function ArticleCard({
 
   return (
     <a target="_blank" href={url} rel="noreferrer">
-      <div className="article flex h-[250px] w-[250px] flex-col items-center rounded-xl bg-zinc-700 text-center shadow-md shadow-zinc-950 md:h-[320px] md:w-[350px]">
+      <div className="article flex w-[320px] flex-col items-center rounded-xl bg-zinc-700 text-center shadow-md shadow-zinc-950 md:h-[350px] md:w-[400px]">
         <Image
           src={coverImage}
           width={350}
           height={300}
           alt="DevTo cover image"
-          className="rounded-lg border-b-2  border-zinc-800"
+          className="w-full rounded-lg border-b-2 border-zinc-800"
         />
-        <div className="p-2">
+        <div className="px-2 py-4">
           <strong className="text-center text-sm text-slate-200 md:text-lg">
             {title}
           </strong>
-          <p className="mt-1 text-xs text-slate-200 md:text-base">
-            Publication date: {formattedDate}
+          <p className="mt-2 text-xs text-slate-200 md:text-base">
+            {t[lang]?.devTo?.pubDate}: {formattedDate}
           </p>
           <p className="mt-1 text-xs text-slate-200 md:text-base">
-            Reactions: {reactions}
+            {t[lang]?.devTo?.reactions}: {reactions}
           </p>
         </div>
       </div>

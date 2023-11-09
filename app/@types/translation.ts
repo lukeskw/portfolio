@@ -55,6 +55,8 @@ export type translationType = {
   }
   devTo: {
     title: string
+    pubDate: string
+    reactions: string
     noArticles: string
   }
   git: {

@@ -47,6 +47,7 @@ export default async function DevToSection({ language: lang }: LanguageProps) {
                   reactions={article.public_reactions_count}
                   url={article.url}
                   coverImage={article.cover_image}
+                  lang={lang}
                 />
               )
             })}

@@ -1,6 +1,5 @@
 'use client'
 import Image from 'next/image'
-// import { Poppins } from 'next/font/google'
 import logoImg from 'assets/images/dev-logo.png'
 import Typewriter from 'typewriter-effect'
 import {
@@ -24,7 +23,7 @@ export default function ContactSection({ language: lang }: LanguageProps) {
           width={300}
           height={300}
           alt="PorfirioDEV logo"
-          className="scale-125 invert lg:scale-150"
+          className="scale-110 invert lg:scale-125"
         />
         <div className="flex min-h-[30px] max-w-[500px] justify-center text-lg md:text-2xl">
           <Typewriter
