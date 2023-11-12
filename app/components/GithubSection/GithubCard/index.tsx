@@ -15,7 +15,7 @@ export default function GithubCard({
 }) {
   return (
     <a target="_blank" href={url} rel="noreferrer">
-      <div className="git flex h-[200px] w-[350px] flex-col items-start gap-3 rounded-xl border border-zinc-800 bg-zinc-900 shadow-lg shadow-zinc-950 md:h-[220px] md:w-[400px]">
+      <div className="git flex h-[220px] w-[320px] flex-col items-start gap-3 overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900 shadow-lg shadow-zinc-950 md:h-[200px] md:w-[400px]">
         <div className="w-full px-6 py-3">
           <div className="flex w-full items-center justify-between gap-2">
             <div className="flex gap-2">
@@ -31,14 +31,14 @@ export default function GithubCard({
               ? truncateString(description, 80)
               : description}
           </p>
-          <div className="space-x-2 space-y-2">
+          <div className="flex w-full flex-wrap gap-2">
             {languages?.length > 0 && (
               <>
                 {languages?.slice(0, 4).map((language, index) => {
                   return (
                     <span
                       key={index}
-                      className="whitespace-nowrap rounded-lg bg-zinc-700 p-2 text-xs md:text-sm"
+                      className="whitespace-nowrap rounded-lg bg-zinc-700 px-2 py-1 text-xs md:text-sm"
                     >
                       {language}
                     </span>

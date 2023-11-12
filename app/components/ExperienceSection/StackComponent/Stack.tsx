@@ -62,7 +62,7 @@ export function Stack({ stack, language }: StackProps) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            className="font-semibold text-white"
+            className="text-sm font-semibold text-white md:text-base"
           >
             {stack.years > 1
               ? `${stack.years} ${t[language]?.experience?.yearPlural}`
