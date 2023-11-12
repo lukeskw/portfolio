@@ -19,7 +19,7 @@ export default function ContactSection({ language: lang }: LanguageProps) {
     <section className="mb-32 flex h-[90vh] w-[90vw] items-center justify-center">
       <div className="mt-16 flex w-full flex-col items-center justify-center gap-5 md:-mt-16 lg:mt-0">
         <div className="mb-8 flex w-full justify-center">
-          <h2 className="text-4xl font-extrabold tracking-widest text-zinc-300 sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
+          <h2 className="text-4xl font-extrabold tracking-wide text-zinc-300 sm:text-5xl md:text-6xl md:tracking-widest lg:text-7xl xl:text-8xl">
             {'< PORFIRIO|DEV >'}
           </h2>
         </div>

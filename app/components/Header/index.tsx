@@ -3,21 +3,20 @@ import { LanguageProps } from '@/app/@types/language'
 import ReactCountryFlag from 'react-country-flag'
 import Link from 'next/link'
 import { redirect } from 'next/navigation'
-import { useEffect } from 'react';
+import { useEffect } from 'react'
 
 export default function Header({ language: lang }: LanguageProps) {
-
   useEffect(() => {
-    const localLanguage = localStorage.getItem('language') || 'en-US';
+    const localLanguage = localStorage.getItem('language') || 'en-US'
     if (localLanguage !== lang) {
-      redirect(`/${localLanguage}`);
+      redirect(`/${localLanguage}`)
     }
-  }, [lang]);
+  }, [lang])
 
   function toggleLanguage(toggledLanguage: string) {
     if (toggledLanguage !== lang) {
-      localStorage.setItem('language', toggledLanguage);
-      redirect(`/${toggledLanguage}`);
+      localStorage.setItem('language', toggledLanguage)
+      redirect(`/${toggledLanguage}`)
     }
   }
 
