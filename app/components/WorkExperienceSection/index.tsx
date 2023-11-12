@@ -10,7 +10,7 @@ export default function ExperienceSection({ language: lang }: LanguageProps) {
       >
         <div className="timeline-head relative border-l-4 border-zinc-700/80 px-4 py-8">
           <h2
-            className="-mt-12 ml-2 flex w-full bg-gradient-to-r from-[#0ea5e9_0%] via-[#b45309_50%] to-[#b45309_100%] bg-clip-text font-sans text-3xl font-extrabold
+            className="-mt-12 ml-2 flex w-full bg-gradient-to-br from-[#0ea5e9_0%] via-[#b45309_90%] to-[#b45309_100%] bg-clip-text font-sans text-[1.75rem] font-extrabold
             text-transparent before:absolute before:left-0 before:top-0 before:inline-block before:h-1 before:w-4 before:bg-zinc-700/80 before:content-[''] md:text-4xl lg:text-5xl"
           >
             {t[lang]?.workExperiences?.title}
