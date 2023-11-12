@@ -4,8 +4,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 24, 24,27;
-  --background-end-rgb: 39,39,42;
+  --background-start-rgb: 9, 9,11;
+  --background-end-rgb: 20,20,24;
 }
 
 * {
@@ -14,24 +14,26 @@
 }
 *::-webkit-scrollbar {
   width: 0.5rem;
+  height: 0.5rem;
 }
 
 *::-webkit-scrollbar-track {
-  background: #3f3f46;
+  background: #27272a;
+  border-radius: 0.875rem
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #536379;
+  background-color: #075985;
   border-radius: 0.875rem;
-  border: 1px solid #4e4e54;
+  border: 1px solid #0369a1;
 }
 
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 24, 24,27;
-    --background-end-rgb: 39,39,42;
+    --background-start-rgb: 9, 9,11;
+    --background-end-rgb: 20,20,24;
   }
   html {
     color-scheme: light;
@@ -45,7 +47,7 @@ we still enforce color-scheme: dark, despite the user preference */
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 24, 24,27;
-    --background-end-rgb: 39,39,42;
+    --background-end-rgb: 35,35,40;
   }
   html {
     color-scheme: light;

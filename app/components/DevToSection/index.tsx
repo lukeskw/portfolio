@@ -29,13 +29,12 @@ export default async function DevToSection({ language: lang }: LanguageProps) {
   return (
     <section className="my-8 flex w-full flex-col items-center justify-center gap-4 md:my-16">
       <h2
-        className=" h-20 bg-gradient-to-br from-slate-400
-          via-slate-500 to-slate-700 bg-clip-text text-center font-sans text-3xl font-bold
+        className=" h-20 bg-gradient-to-br from-sky-500 to-amber-700 bg-clip-text text-center font-sans text-3xl font-extrabold
              text-transparent md:text-4xl lg:text-5xl"
       >
         {t[lang]?.devTo?.title}
       </h2>
-      <div className="grid grid-cols-1 items-center justify-center gap-8 sm:p-2 md:p-8 lg:grid-cols-2 xl:grid-cols-3">
+      <div className="xlCards:grid-cols-3 grid grid-cols-1 items-center justify-center gap-8 sm:p-2 md:p-8 lg:grid-cols-2">
         {articlesList.length > 0 ? (
           <>
             {articlesList.slice(-6).map((article) => {

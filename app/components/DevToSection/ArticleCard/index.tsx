@@ -25,7 +25,7 @@ export default function ArticleCard({
 
   return (
     <a target="_blank" href={url} rel="noreferrer">
-      <div className="article flex w-[320px] flex-col items-center rounded-xl bg-zinc-700 text-center shadow-md shadow-zinc-950 md:h-[350px] md:w-[400px]">
+      <div className="article flex w-[320px] flex-col items-center rounded-xl border border-zinc-800 bg-zinc-900 text-center shadow-lg shadow-zinc-950 md:h-[350px] md:w-[400px]">
         <Image
           src={coverImage}
           width={350}
@@ -34,13 +34,13 @@ export default function ArticleCard({
           className="w-full rounded-lg border-b-2 border-zinc-800"
         />
         <div className="px-2 py-4">
-          <strong className="text-center text-sm text-slate-200 md:text-lg">
+          <strong className="text-center text-sm text-zinc-300 md:text-lg">
             {title}
           </strong>
-          <p className="mt-2 text-xs text-slate-200 md:text-base">
+          <p className="mt-2 text-xs text-zinc-300 md:text-base">
             {t[lang]?.devTo?.pubDate}: {formattedDate}
           </p>
-          <p className="mt-1 text-xs text-slate-200 md:text-base">
+          <p className="mt-1 text-xs text-zinc-300 md:text-base">
             {t[lang]?.devTo?.reactions}: {reactions}
           </p>
         </div>

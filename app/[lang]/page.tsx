@@ -6,6 +6,7 @@ import ExperienceSection from '../components/ExperienceSection'
 import WorkExperienceSection from '../components/WorkExperienceSection'
 import GithubSection from '../components/GithubSection'
 import Header from '../components/Header'
+import FooterSection from '../components/Footer'
 
 export default async function Home({
   params: { lang },
@@ -25,6 +26,7 @@ export default async function Home({
       <WorkExperienceSection language={lang} />
       <DevToSection language={lang} />
       <GithubSection language={lang} />
+      <FooterSection />
     </main>
   )
 }

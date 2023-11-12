@@ -98,7 +98,7 @@ export const t: Record<string, translationType> = {
   'pt-BR': {
     typeWriter: {
       firstSentence: 'Bacharéu em Sistemas de Informação',
-      secondSentence: 'Desesnvolvedor de Software',
+      secondSentence: 'Desenvolvedor de Software',
       thirdSentence: 'Criador de conteúdo Tech',
       fourthSentence: 'Ótimo te ver por aqui!',
     },

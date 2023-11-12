@@ -16,16 +16,14 @@ import { LanguageProps } from '@/app/@types/language'
 
 export default function ContactSection({ language: lang }: LanguageProps) {
   return (
-    <section className="flex h-[90vh] items-center justify-center">
-      <div className="mt-16 flex flex-col items-center justify-center gap-5 md:-mt-16 lg:mt-0 lg:w-[600px]">
-        <Image
-          src={logoImg}
-          width={300}
-          height={300}
-          alt="PorfirioDEV logo"
-          className="scale-110 invert lg:scale-125"
-        />
-        <div className="flex min-h-[30px] max-w-[500px] justify-center text-lg md:text-2xl">
+    <section className="mb-32 flex h-[90vh] w-[90vw] items-center justify-center">
+      <div className="mt-16 flex w-full flex-col items-center justify-center gap-5 md:-mt-16 lg:mt-0">
+        <div className="mb-8 flex w-full justify-center">
+          <h2 className="text-4xl font-extrabold tracking-widest text-zinc-300 sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
+            {'< PORFIRIO|DEV >'}
+          </h2>
+        </div>
+        <div className="flex min-h-[30px] justify-center text-center text-base text-zinc-500 md:text-2xl">
           <Typewriter
             onInit={(typewriter) => {
               typewriter
@@ -59,7 +57,11 @@ export default function ContactSection({ language: lang }: LanguageProps) {
             href="https://www.linkedin.com/in/lucas-porfirio-dev/"
             rel="noreferrer"
           >
-            <LinkedinLogo size={56} weight="fill" />
+            <LinkedinLogo
+              size={56}
+              weight="fill"
+              className="w-10 text-zinc-100 md:w-full"
+            />
           </a>
           <a
             className="hover:opacity-80"
@@ -67,7 +69,11 @@ export default function ContactSection({ language: lang }: LanguageProps) {
             href="https://github.com/lukeskw/"
             rel="noreferrer"
           >
-            <GithubLogo size={56} weight="fill" />
+            <GithubLogo
+              size={56}
+              weight="fill"
+              className="w-10 text-zinc-100 md:w-full"
+            />
           </a>
           <a
             className="hover:opacity-80"
@@ -75,7 +81,11 @@ export default function ContactSection({ language: lang }: LanguageProps) {
             href="https://dev.to/lukeskw"
             rel="noreferrer"
           >
-            <DevToLogo size={56} weight="fill" />
+            <DevToLogo
+              size={56}
+              weight="fill"
+              className="w-10 text-zinc-100 md:w-full"
+            />
           </a>
           <a
             className="hover:opacity-80"
@@ -83,7 +93,11 @@ export default function ContactSection({ language: lang }: LanguageProps) {
             href="mailto:lucasporfirioa@gmail.com"
             rel="noreferrer"
           >
-            <EnvelopeSimple size={56} weight="fill" />
+            <EnvelopeSimple
+              size={56}
+              weight="fill"
+              className="w-10 text-zinc-100 md:w-full"
+            />
           </a>
         </div>
         <Link
@@ -94,7 +108,7 @@ export default function ContactSection({ language: lang }: LanguageProps) {
         >
           <CaretDoubleDown
             size={56}
-            className="mt-8 animate-bounce hover:opacity-80"
+            className="mt-8 w-10 animate-bounce text-zinc-500 hover:opacity-80 md:w-full"
           />
         </Link>
       </div>

@@ -1,8 +1,9 @@
 import React from 'react'
 import './globals.css'
-import { Inter } from 'next/font/google'
+// eslint-disable-next-line camelcase
+import { JetBrains_Mono } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const jetbrains = JetBrains_Mono({ subsets: ['latin'], variable: '--font-jet' })
 
 export const metadata = {
   title: 'Porfirio DEV',
@@ -10,14 +11,13 @@ export const metadata = {
 }
 
 export default function RootLayout({
-  children
+  children,
 }: {
-  children: React.ReactNode,
-
+  children: React.ReactNode
 }) {
   return (
     <html className="light" lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={jetbrains.className}>{children}</body>
     </html>
   )
 }
