@@ -19,6 +19,9 @@ _For my personal portfolio page_
 ### This is the about me section
 ![Screenshot of the about me section](/public/README/about.png)
 
+### With an experience section
+![Screenshot of the about me section](/public/README/experience.png)
+
 ### And this is the work experiences section
 ![Screenshot of the work experiences section](/public/README/work-experiences.png)
 
