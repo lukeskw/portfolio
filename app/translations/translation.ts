@@ -4,7 +4,7 @@ export const t: Record<string, translationType> = {
   'en-US': {
     typeWriter: {
       firstSentence: 'Computer Information Systems Bachelor',
-      secondSentence: 'Software Developer',
+      secondSentence: 'Software Engineer',
       thirdSentence: 'Tech Content Creator',
       fourthSentence: 'Nice to see you around here!',
     },
@@ -12,7 +12,7 @@ export const t: Record<string, translationType> = {
       title: "Hello there! I'm Luke",
       text: {
         first:
-          "Allow me to introduce myself! I'm a passionate software engineer who has been immersed in the world of technology since 2018, when I was just 19 years old.I hold a bachelor's degree in Computer Information Systems, which I got back in 2019, and for the past two years,I have been working as a full-stack developer at CityConnect. Challenges fuel my drive, and I thrive in problem-solving scenarios.",
+          "Allow me to introduce myself! I'm a passionate software engineer who has been immersed in the world of technology since 2018, when I was just 19 years old.I hold a bachelor's degree in Computer Information Systems, which I got back in 2019, and for the past two years,I have been working as a full-stack engineer at CityConnect. Challenges fuel my drive, and I thrive in problem-solving scenarios.",
         second:
           "Whether it's tackling complex coding issues or finding innovative solutions, I'm always up for the challenge. When I'm not coding, you'll likely find me enjoying a cup of coffee, playing League of Legends or Squad, or spending some time with my beloved wife, and with my cat named Kiki. I'm excited to connect with like-minded individuals, collaborate on new projects, and continue my journey as a software engineer😊",
       },
@@ -20,7 +20,7 @@ export const t: Record<string, translationType> = {
     experience: {
       title: 'Experience',
       description: `5 years working in the IT area, and 4 as a
-      Software Developer, in
+      Software Engineer, in
       companys such as Unimed and City Connect.`,
       errorMsg: 'Error while fetching data!',
       year: 'year',
@@ -65,10 +65,10 @@ export const t: Record<string, translationType> = {
         },
       },
       secondExperience: {
-        title: 'Backend developer at Tatica Web',
+        title: 'Backend Engineer at Tatica Web',
         date: 'Apr 2020 - Jun 2021',
         description:
-          "With a strong web development proficiency in HTML5, CSS3, JS, PHP, Laravel, and Blade, I've created impactful websites for regional companies. Specialized in introducing new functionalities and enhancing their online presence. My initial role was a backend developer, but with my growing desire to learn, I began immersing myself in the frontend world, and in the end, I was already tinkering with the frontend and layouts of the websites. Additionally, I've excelled in comprehensive website maintenance, focusing on optimizing user experiences. My technical expertise and attention to detail ensured exceptional websites that exceed client expectations in functionality, performance, and user satisfaction.",
+          "With a strong web development proficiency in HTML5, CSS3, JS, PHP, Laravel, and Blade, I've created impactful websites for regional companies. Specialized in introducing new functionalities and enhancing their online presence. My initial role was a backend engineer, but with my growing desire to learn, I began immersing myself in the frontend world, and in the end, I was already tinkering with the frontend and layouts of the websites. Additionally, I've excelled in comprehensive website maintenance, focusing on optimizing user experiences. My technical expertise and attention to detail ensured exceptional websites that exceed client expectations in functionality, performance, and user satisfaction.",
         skills: {
           title: 'Skills',
           description:
@@ -76,7 +76,7 @@ export const t: Record<string, translationType> = {
         },
       },
       thirdExperience: {
-        title: 'Fullstack developer at City Connect',
+        title: 'Fullstack Engineer at City Connect',
         date: 'Jun 2021 - Now',
         description:
           'City Connect is a Brazilian service provider company that has been operating in the market for over 13 years, delivering innovation and technology solutions in the field of IT Infrastructure and Software for Public Administration. As a Software Engineer, I collaborate in the development of web systems using ReactJS and Laravel, actively participating in the processes outlined by the Scrum methodology. I also perform maintenance on legacy systems developed in PHP, as well as ReactJS/Laravel. Additionally, I contribute to the development and maintenance of Drupal applications, primarily focusing on frontend tasks. These applications are hosted in an Azure environment with Docker containerization.',
@@ -113,7 +113,7 @@ export const t: Record<string, translationType> = {
     },
     experience: {
       title: 'Experiência',
-      description: `Trabalho a 5 anos na área de TI, e há 4 anos trabalho como um Software Developer, em empresas como a Unimed e a City Connect.`,
+      description: `Trabalho a 5 anos na área de TI, e há 4 anos trabalho como um Software Engineer, em empresas como a Unimed e a City Connect.`,
       errorMsg: 'Erro na busca dos dados!',
       year: 'ano',
       yearPlural: 'anos',
@@ -157,7 +157,7 @@ export const t: Record<string, translationType> = {
         },
       },
       secondExperience: {
-        title: 'Backend developer na Tatica Web',
+        title: 'Backend Engineer na Tatica Web',
         date: 'Abr 2020 - Jun 2021',
         description:
           'Com proficiência sólida em desenvolvimento web em HTML5, CSS3, JS, PHP, Laravel e Blade, criei websites impactantes para empresas regionais. Especializado em introduzir novas funcionalidades e aprimorar sua presença online. Meu papel inicial era de desenvolvedor backend, mas com meu crescente desejo de aprender, comecei a me envolver no mundo do frontend, e no final, já estava mexendo com o frontend e layouts dos sites. Além disso, me destaquei na manutenção abrangente de websites, focando na otimização da experiência do usuário. Minha experiência técnica e atenção aos detalhes garantiram websites excepcionais que superam as expectativas dos clientes em termos de funcionalidade, desempenho e satisfação do usuário.',
@@ -168,7 +168,7 @@ export const t: Record<string, translationType> = {
         },
       },
       thirdExperience: {
-        title: 'Fullstack developer na City Connect',
+        title: 'Fullstack Engineer na City Connect',
         date: 'Jun 2021 - Atualmente',
         description:
           'A City Connect é uma empresa brasileira provedora de serviços que atua no mercado há mais de 13 anos, entregando soluções de inovação e tecnologia no campo de Infraestrutura de TI e Software para a Administração Pública. Como Engenheiro de Software, colaboro no desenvolvimento de sistemas web usando ReactJS e Laravel, participando ativamente dos processos delineados pela metodologia Scrum. Também realizo a manutenção de sistemas legados desenvolvidos em PHP, bem como em ReactJS/Laravel. Além disso, contribuo para o desenvolvimento e manutenção de aplicações Drupal, com foco principalmente em tarefas de frontend. Essas aplicações são hospedadas em um ambiente Azure com containerização Docker.',
