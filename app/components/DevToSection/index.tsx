@@ -34,7 +34,7 @@ export default async function DevToSection({ language: lang }: LanguageProps) {
       >
         {t[lang]?.devTo?.title}
       </h2>
-      <div className="xlCards:grid-cols-3 grid grid-cols-1 items-center justify-center gap-8 sm:p-2 md:p-8 lg:grid-cols-2">
+      <div className="grid grid-cols-1 items-center justify-center gap-8 sm:p-2 md:p-8 lg:grid-cols-2 xlCards:grid-cols-3">
         {articlesList.length > 0 ? (
           <>
             {articlesList.slice(-6).map((article) => {

@@ -19,7 +19,7 @@ export const t: Record<string, translationType> = {
     },
     experience: {
       title: 'Experience',
-      description: `5 years working in the IT area, and 4 as a
+      description: `6 years working in the IT area, and 5 as a
       Software Engineer, in
       companys such as Unimed and City Connect.`,
       errorMsg: 'Error while fetching data!',
@@ -28,11 +28,11 @@ export const t: Record<string, translationType> = {
       languages: [
         {
           name: 'react',
-          years: 2,
+          years: 3,
         },
         {
           name: 'javascript',
-          years: 3,
+          years: 4,
         },
         {
           name: 'typescript',
@@ -40,15 +40,15 @@ export const t: Record<string, translationType> = {
         },
         {
           name: 'php',
-          years: 4,
+          years: 5,
         },
         {
           name: 'laravel',
-          years: 3,
+          years: 4,
         },
         {
           name: 'mysql',
-          years: 3,
+          years: 4,
         },
       ],
     },
@@ -113,18 +113,18 @@ export const t: Record<string, translationType> = {
     },
     experience: {
       title: 'Experiência',
-      description: `Trabalho a 5 anos na área de TI, e há 4 anos trabalho como um Software Engineer, em empresas como a Unimed e a City Connect.`,
+      description: `Trabalho a 6 anos na área de TI, e há 5 anos trabalho como um Software Engineer, em empresas como a Unimed e a City Connect.`,
       errorMsg: 'Erro na busca dos dados!',
       year: 'ano',
       yearPlural: 'anos',
       languages: [
         {
           name: 'react',
-          years: 2,
+          years: 3,
         },
         {
           name: 'javascript',
-          years: 3,
+          years: 4,
         },
         {
           name: 'typescript',
@@ -132,15 +132,15 @@ export const t: Record<string, translationType> = {
         },
         {
           name: 'php',
-          years: 4,
+          years: 5,
         },
         {
           name: 'laravel',
-          years: 3,
+          years: 4,
         },
         {
           name: 'mysql',
-          years: 3,
+          years: 4,
         },
       ],
     },

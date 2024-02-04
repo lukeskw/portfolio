@@ -20,7 +20,12 @@ export function Stack({ stack, language }: StackProps) {
   useEffect(() => {
     if (inView) {
       controls.start({
-        width: stack.years !== 4 ? `${(stack.years / 4) * 100}%` : '100%',
+        width:
+          stack.years === 1
+            ? '30%'
+            : stack.years !== 5
+            ? `${(stack.years / 5) * 100}%`
+            : '100%',
         opacity: 1,
       })
     }
@@ -46,7 +51,9 @@ export function Stack({ stack, language }: StackProps) {
               className="rounded bg-sky-800 p-4 text-sm text-zinc-300 shadow-sm shadow-sky-900"
               sideOffset={3}
             >
-              {stack.name.charAt(0).toUpperCase() + stack.name.slice(1)}
+              {stack.name === 'php'
+                ? stack.name.toUpperCase()
+                : stack.name.charAt(0).toUpperCase() + stack.name.slice(1)}
               <Tooltip.Arrow className="fill-sky-800" />
             </Tooltip.Content>
           </Tooltip.Portal>
@@ -62,7 +69,7 @@ export function Stack({ stack, language }: StackProps) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            className="text-sm font-semibold text-white md:text-base"
+            className="text-xs font-semibold text-white md:text-base"
           >
             {stack.years > 1
               ? `${stack.years} ${t[language]?.experience?.yearPlural}`
