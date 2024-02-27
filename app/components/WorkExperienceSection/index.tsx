@@ -30,7 +30,7 @@ export default function ExperienceSection({ language: lang }: LanguageProps) {
             <h4 className="ml-3 pb-4 text-base md:ml-0 md:text-lg">
               {t[lang]?.workExperiences?.thirdExperience?.date}
             </h4>
-            <p className="md:bg-zinc-925 rounded-lg p-2 text-justify text-sm md:p-4 md:text-base lg:text-lg">
+            <p className="rounded-lg p-2 text-justify text-sm md:bg-zinc-925 md:p-4 md:text-base lg:text-lg">
               {t[lang]?.workExperiences?.thirdExperience?.description}
               <br />
               <br />

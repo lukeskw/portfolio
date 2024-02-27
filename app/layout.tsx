@@ -2,8 +2,8 @@ import React from 'react'
 import './globals.css'
 // eslint-disable-next-line camelcase
 import { JetBrains_Mono } from 'next/font/google'
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/react'
 
 const jetbrains = JetBrains_Mono({ subsets: ['latin'], variable: '--font-jet' })
 

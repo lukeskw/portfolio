@@ -1,6 +1,4 @@
 'use client'
-import Image from 'next/image'
-import logoImg from 'assets/images/dev-logo.png'
 import Typewriter from 'typewriter-effect'
 import {
   EnvelopeSimple,
