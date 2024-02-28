@@ -10,6 +10,7 @@ export function getStackIcon(name: string): string {
     php: require('@/assets/images/php-icon.svg'),
     laravel: require('@/assets/images/laravel-icon.svg'),
     mysql: require('@/assets/images/mysql-icon.svg'),
+    postgreSQL: require('@/assets/images/postgresql-icon.svg'),
   }
 
   return stackIcons[name] || ''

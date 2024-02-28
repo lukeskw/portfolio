@@ -36,7 +36,7 @@ export function Stack({ stack, language }: StackProps) {
       <Tooltip.Provider delayDuration={300}>
         <Tooltip.Root>
           <Tooltip.Trigger asChild>
-            <button className="hover:opacity-80">
+            <button className="cursor-default hover:opacity-80">
               <Image
                 src={iconSrc}
                 width={40}
@@ -69,7 +69,7 @@ export function Stack({ stack, language }: StackProps) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            className="text-xs font-semibold text-white md:text-base"
+            className="cursor-default text-xs font-semibold text-white md:text-base"
           >
             {stack.years > 1
               ? `${stack.years} ${t[language]?.experience?.yearPlural}`

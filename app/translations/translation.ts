@@ -36,7 +36,7 @@ export const t: Record<string, translationType> = {
         },
         {
           name: 'typescript',
-          years: 1,
+          years: 2,
         },
         {
           name: 'php',
@@ -49,6 +49,10 @@ export const t: Record<string, translationType> = {
         {
           name: 'mysql',
           years: 4,
+        },
+        {
+          name: 'postgreSQL',
+          years: 3,
         },
       ],
     },
@@ -128,7 +132,7 @@ export const t: Record<string, translationType> = {
         },
         {
           name: 'typescript',
-          years: 1,
+          years: 2,
         },
         {
           name: 'php',
@@ -141,6 +145,10 @@ export const t: Record<string, translationType> = {
         {
           name: 'mysql',
           years: 4,
+        },
+        {
+          name: 'postgreSQL',
+          years: 3,
         },
       ],
     },
