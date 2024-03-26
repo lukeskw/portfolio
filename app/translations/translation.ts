@@ -18,7 +18,7 @@ export const t: Record<string, translationType> = {
       },
     },
     experience: {
-      title: 'Experience',
+      title: 'Main Skills',
       description: `6 years working in the IT area, and 5 as a
       Software Engineer, in
       companys such as Unimed and City Connect.`,
@@ -48,7 +48,7 @@ export const t: Record<string, translationType> = {
         },
         {
           name: 'mysql',
-          years: 4,
+          years: 5,
         },
         {
           name: 'postgreSQL',
@@ -97,7 +97,10 @@ export const t: Record<string, translationType> = {
       pubDate: 'Publication date',
       noArticles: 'No articles were found',
     },
-    git: { title: 'My Projects on Git', noProjects: 'No projects were found' },
+    git: {
+      title: 'My Latest Projects on Git',
+      noProjects: 'No projects were found',
+    },
   },
   'pt-BR': {
     typeWriter: {
@@ -116,7 +119,7 @@ export const t: Record<string, translationType> = {
       },
     },
     experience: {
-      title: 'Experiência',
+      title: 'Habilidades Principais',
       description: `Trabalho a 6 anos na área de TI, e há 5 anos trabalho como um Software Engineer, em empresas como a Unimed e a City Connect.`,
       errorMsg: 'Erro na busca dos dados!',
       year: 'ano',
@@ -144,7 +147,7 @@ export const t: Record<string, translationType> = {
         },
         {
           name: 'mysql',
-          years: 4,
+          years: 5,
         },
         {
           name: 'postgreSQL',
@@ -194,7 +197,7 @@ export const t: Record<string, translationType> = {
       noArticles: 'Não foram encontrados artigos!',
     },
     git: {
-      title: 'Meus Projetos no Git',
+      title: 'Meus Últimos Projetos no Git',
       noProjects: 'Não foram encontrados projetos!',
     },
   },

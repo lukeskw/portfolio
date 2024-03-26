@@ -4,6 +4,7 @@ import { NextRequest } from 'next/server'
 
 export const locales = ['en-US', 'pt-BR']
 export const defaultLocale = 'en-US'
+const PUBLIC_FILE = /\.(.*)$/
 
 function getLocale(request: NextRequest): string {
   const headers = { 'accept-language': 'en-US,en;q=0.5' }
@@ -14,6 +15,9 @@ function getLocale(request: NextRequest): string {
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
+  if (PUBLIC_FILE.test(pathname) || pathname.includes('/api')) {
+    return undefined
+  }
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
   )

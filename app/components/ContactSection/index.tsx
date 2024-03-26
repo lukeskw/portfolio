@@ -6,6 +6,7 @@ import {
   LinkedinLogo,
   DevToLogo,
   CaretDoubleDown,
+  FileText,
 } from '@phosphor-icons/react'
 
 import { Link } from 'react-scroll'
@@ -54,6 +55,7 @@ export default function ContactSection({ language: lang }: LanguageProps) {
             target="_blank"
             href="https://www.linkedin.com/in/lucas-porfirio-dev/"
             rel="noreferrer"
+            title="linkedin"
           >
             <LinkedinLogo
               size={56}
@@ -66,6 +68,7 @@ export default function ContactSection({ language: lang }: LanguageProps) {
             target="_blank"
             href="https://github.com/lukeskw/"
             rel="noreferrer"
+            title="github"
           >
             <GithubLogo
               size={56}
@@ -78,6 +81,7 @@ export default function ContactSection({ language: lang }: LanguageProps) {
             target="_blank"
             href="https://dev.to/lukeskw"
             rel="noreferrer"
+            title="dev.to"
           >
             <DevToLogo
               size={56}
@@ -90,8 +94,23 @@ export default function ContactSection({ language: lang }: LanguageProps) {
             target="_blank"
             href="mailto:lucasporfirioa@gmail.com"
             rel="noreferrer"
+            title="email"
           >
             <EnvelopeSimple
+              size={56}
+              weight="fill"
+              className="w-10 text-zinc-100 md:w-full"
+            />
+          </a>
+          <a
+            className="cursor-pointer hover:opacity-80"
+            href={
+              lang === 'pt-BR' ? '/curriculum_pt.pdf' : '/curriculum_en.pdf'
+            }
+            download={`curriculum-${lang.substring(0, 2)}.pdf`}
+            title="curriculum"
+          >
+            <FileText
               size={56}
               weight="fill"
               className="w-10 text-zinc-100 md:w-full"
