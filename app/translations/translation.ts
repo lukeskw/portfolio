@@ -88,7 +88,7 @@ export const t: Record<string, translationType> = {
         skills: {
           title: 'Skills',
           description:
-            'HTML, CSS3, PHP 5.4 - 7.4, Javascript, Jquery, Git, MySQL, Laravel, Blade.',
+            'HTML, CSS3, PHP 5.4 - 7.4, Javascript, Jquery, Git, MySQL, Laravel 5-7, Blade.',
         },
       },
       thirdExperience: {
@@ -99,18 +99,18 @@ export const t: Record<string, translationType> = {
         skills: {
           title: 'Skills',
           description:
-            'Laravel, React.js, TailwindCSS, EC2, Jquery, Scrum, Frontend and Backend Development, Git, Docker, Drupal, MySQL, PostgreSQL.',
+            'Laravel 6-10, React.js, TailwindCSS, EC2, Jquery, Scrum, Frontend and Backend Development, Git, Docker, Drupal, MySQL, PostgreSQL.',
         },
       },
       fourthExperience: {
         title: 'Fullstack Engineer at Listra Digital',
         date: 'Jun 2024 - Now',
         description:
-          'As a fullstack developer at Listra Digital, I architect and develop high-performance web applications using Laravel 11/12 with Clean Architecture and DDD principles. I seamlessly integrate React frontends via Inertia.js, creating scalable admin panels and APIs with advanced authentication (Keycloak/Passport) and comprehensive testing (Pest). Key achievements include: building a corporate social network with optimized feed systems and extensive caching strategies; developing a training platform with large video uploads (TUS protocol) and automated Vimeo processing via async jobs; creating an AI-powered recipe generation system using GPT-4 Mini and DALL-E 3 with advanced prompt engineering and Octane\\Concurrently for parallel processing optimization. I deploy applications on Kubernetes with Docker containerization and dev containers, implementing Redis caching, Laravel Octane optimization, and asynchronous processing for maximum performance and scalability.',
+          'As a fullstack developer at Listra Digital, I architect and develop high-performance web applications using Laravel 10-12 with Clean Architecture and DDD principles. I seamlessly integrate React frontends via Inertia.js, creating scalable admin panels and APIs with advanced authentication (Keycloak/Passport) and comprehensive testing (Pest). Key achievements include: building a corporate social network with optimized feed systems and extensive caching strategies; developing a training platform with large video uploads (TUS protocol) and automated Vimeo processing via async jobs; creating an AI-powered recipe generation system using GPT-4 Mini and DALL-E 3 with advanced prompt engineering and Octane\\Concurrently for parallel processing optimization. I deploy applications on Kubernetes with Docker containerization and dev containers, implementing Redis caching, Laravel Octane optimization, and asynchronous processing for maximum performance and scalability.',
         skills: {
           title: 'Skills',
           description:
-            'Laravel 11/12, React.js, Inertia.js, Next.js 15, Clean Architecture, DDD, Keycloak, Passport, Pest, Shadcn, Zustand, Docker, Kubernetes, Dev Containers, Redis, Octane, Git, Bitbucket.',
+            'Laravel 10-12, React.js, Inertia.js, Next.js 15, Clean Architecture, DDD, Keycloak, Passport, Pest, Shadcn, Zustand, Docker, Kubernetes, Dev Containers, Redis, Octane, Git, Bitbucket.',
         },
       },
     },
@@ -212,7 +212,7 @@ export const t: Record<string, translationType> = {
         skills: {
           title: 'Habilidades',
           description:
-            'HTML, CSS3, PHP 5.4 - 7.4, Javascript, Jquery, Git, MySQL, Laravel, Blade.',
+            'HTML, CSS3, PHP 5.4 - 7.4, Javascript, Jquery, Git, MySQL, Laravel 5-7, Blade.',
         },
       },
       thirdExperience: {
@@ -223,18 +223,18 @@ export const t: Record<string, translationType> = {
         skills: {
           title: 'Habilidades',
           description:
-            'Laravel, React.js, TailwindCSS, EC2, Jquery, Scrum, Desenvolvimento Frontend e Backend, Git, Docker, Drupal, MySQL, PostgreSQL.',
+            'Laravel 6-10, React.js, TailwindCSS, EC2, Jquery, Scrum, Desenvolvimento Frontend e Backend, Git, Docker, Drupal, MySQL, PostgreSQL.',
         },
       },
       fourthExperience: {
         title: 'Fullstack Engineer na Listra Digital',
         date: 'Jun 2024 - Atualmente',
         description:
-          'Como desenvolvedor fullstack na Listra Digital, arquiteto e desenvolvo aplicações web de alta performance usando Laravel 11/12 com Clean Architecture e princípios DDD. Integro frontends React via Inertia.js, criando painéis administrativos escaláveis e APIs com autenticação avançada (Keycloak/Passport) e testes abrangentes (Pest). Principais conquistas incluem: construção de rede social corporativa com sistemas de feed otimizados e estratégias extensivas de cache; desenvolvimento de plataforma de treinamento com upload de vídeos grandes (protocolo TUS) e processamento automatizado via jobs assíncronos para Vimeo; criação de sistema de geração de receitas com IA usando GPT-4 Mini e DALL-E 3 com engenharia avançada de prompts e Octane\\Concurrently para otimização de processamento paralelo. Implanto aplicações no Kubernetes com containerização Docker e dev containers, implementando cache Redis, otimização Laravel Octane e processamento assíncrono para máxima performance e escalabilidade.',
+          'Como desenvolvedor fullstack na Listra Digital, arquiteto e desenvolvo aplicações web de alta performance usando Laravel 10-12 com Clean Architecture e princípios DDD. Integro frontends React via Inertia.js, criando painéis administrativos escaláveis e APIs com autenticação avançada (Keycloak/Passport) e testes abrangentes (Pest). Principais conquistas incluem: construção de rede social corporativa com sistemas de feed otimizados e estratégias extensivas de cache; desenvolvimento de plataforma de treinamento com upload de vídeos grandes (protocolo TUS) e processamento automatizado via jobs assíncronos para Vimeo; criação de sistema de geração de receitas com IA usando GPT-4 Mini e DALL-E 3 com engenharia avançada de prompts e Octane\\Concurrently para otimização de processamento paralelo. Implanto aplicações no Kubernetes com containerização Docker e dev containers, implementando cache Redis, otimização Laravel Octane e processamento assíncrono para máxima performance e escalabilidade.',
         skills: {
           title: 'Habilidades',
           description:
-            'Laravel 11/12, React.js, Inertia.js, Next.js 15, Clean Architecture, DDD, Keycloak, Passport, Pest, Shadcn, Zustand, Docker, Kubernetes, Dev Containers, Redis, Octane, Git, Bitbucket.',
+            'Laravel 10-12, React.js, Inertia.js, Next.js 15, Clean Architecture, DDD, Keycloak, Passport, Pest, Shadcn, Zustand, Docker, Kubernetes, Dev Containers, Redis, Octane, Git, Bitbucket.',
         },
       },
     },
