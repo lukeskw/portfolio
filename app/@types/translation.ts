@@ -52,6 +52,15 @@ export type translationType = {
         description: string
       }
     }
+    fourthExperience: {
+      title: string
+      date: string
+      description: string
+      skills: {
+        title: string
+        description: string
+      }
+    }
   }
   devTo: {
     title: string
