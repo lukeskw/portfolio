@@ -12,31 +12,31 @@ export const t: Record<string, translationType> = {
       title: "Hello there! I'm Luke",
       text: {
         first:
-          "Let me introduce myself! I'm a passionate software engineer who has been immersed in the world of technology since 2018, when I was just 19 years old.I hold a bachelor's degree in Computer Information Systems, which I got back in 2019, and for the past three years,I have been working as a full-stack engineer at CityConnect. Challenges fuel my drive, and I thrive in problem-solving scenarios.",
+          "Let me introduce myself! I'm a passionate software engineer who has been immersed in the world of technology since 2018, when I was just 19 years old.I hold a bachelor's degree in Computer Information Systems, which I got back in 2019, and I'm currently working as a full-stack engineer at Listra Digital. Challenges fuel my drive, and I thrive in problem-solving scenarios.",
         second:
-          "Whether it's tackling complex coding issues or finding innovative solutions, I'm always up for the challenge. When I'm not coding, you'll likely find me enjoying a cup of coffee, playing League of Legends or Squad, or spending some time with my beloved wife, and with my cat named Kiki. I'm excited to connect with like-minded individuals, collaborate on new projects, and continue my journey as a software engineer😊",
+          "Whether it's tackling complex coding issues or finding innovative solutions, I'm always up for the challenge. I'm particularly passionate about AI technologies and have been using AI tools and agents for almost 3 years, including GPT, Claude, Claude Code, and Gemini. I'm also deeply interested in exploring Bedrock Agents for future projects. When I'm not coding, you'll likely find me enjoying a cup of coffee, playing Squad (or any other Milsim), or spending some time with my beloved wife, and with my cat named Kiki. I'm excited to connect with like-minded individuals, collaborate on new projects, and continue my journey as a software engineer😊",
       },
     },
     experience: {
       title: 'Main Skills',
-      description: `6 years working in the IT area, and 5 as a
+      description: `7 years working in the IT area, and 5 as a
       Software Engineer, in
-      companys such as Unimed and City Connect.`,
+      companys such as Listra Digital, Unimed and City Connect.`,
       errorMsg: 'Error while fetching data!',
       year: 'year',
       yearPlural: 'years',
       languages: [
         {
           name: 'react',
-          years: 3,
-        },
-        {
-          name: 'javascript',
           years: 4,
         },
         {
+          name: 'javascript',
+          years: 6,
+        },
+        {
           name: 'typescript',
-          years: 2,
+          years: 3,
         },
         {
           name: 'php',
@@ -44,14 +44,26 @@ export const t: Record<string, translationType> = {
         },
         {
           name: 'laravel',
-          years: 4,
-        },
-        {
-          name: 'mysql',
           years: 5,
         },
         {
+          name: 'mysql',
+          years: 6,
+        },
+        {
           name: 'postgreSQL',
+          years: 4,
+        },
+        {
+          name: 'docker',
+          years: 2,
+        },
+        {
+          name: 'k8s',
+          years: 1,
+        },
+        {
+          name: 'AI',
           years: 3,
         },
       ],
@@ -81,13 +93,24 @@ export const t: Record<string, translationType> = {
       },
       thirdExperience: {
         title: 'Fullstack Engineer at City Connect',
-        date: 'Jun 2021 - Now',
+        date: 'Jun 2021 - Jun 2024',
         description:
           'City Connect is a Brazilian service provider company that has been operating in the market for over 13 years, delivering innovation and technology solutions in the field of IT Infrastructure and Software for Public Administration. As a Software Engineer, I collaborate in the development of web systems using ReactJS and Laravel, actively participating in the processes outlined by the Scrum methodology. I also perform maintenance on legacy systems developed in PHP, as well as ReactJS/Laravel. Additionally, I contribute to the development and maintenance of Drupal applications, primarily focusing on frontend tasks. These applications are hosted in an Azure environment with Docker containerization.',
         skills: {
           title: 'Skills',
           description:
             'Laravel, React.js, TailwindCSS, EC2, Jquery, Scrum, Frontend and Backend Development, Git, Docker, Drupal, MySQL, PostgreSQL.',
+        },
+      },
+      fourthExperience: {
+        title: 'Fullstack Engineer at Listra Digital',
+        date: 'Jun 2024 - Now',
+        description:
+          'As a fullstack developer at Listra Digital, I architect and develop high-performance web applications using Laravel 11/12 with Clean Architecture and DDD principles. I seamlessly integrate React frontends via Inertia.js, creating scalable admin panels and APIs with advanced authentication (Keycloak/Passport) and comprehensive testing (Pest). Key achievements include: building a corporate social network with optimized feed systems and extensive caching strategies; developing a training platform with large video uploads (TUS protocol) and automated Vimeo processing via async jobs; creating an AI-powered recipe generation system using GPT-4 Mini and DALL-E 3 with advanced prompt engineering and Octane\\Concurrently for parallel processing optimization. I deploy applications on Kubernetes with Docker containerization and dev containers, implementing Redis caching, Laravel Octane optimization, and asynchronous processing for maximum performance and scalability.',
+        skills: {
+          title: 'Skills',
+          description:
+            'Laravel 11/12, React.js, Inertia.js, Next.js 15, Clean Architecture, DDD, Keycloak, Passport, Pest, Shadcn, Zustand, Docker, Kubernetes, Dev Containers, Redis, Octane, Git, Bitbucket.',
         },
       },
     },
@@ -113,29 +136,31 @@ export const t: Record<string, translationType> = {
       title: 'Olá! Meu nome é Luke',
       text: {
         first:
-          'Deixa eu me apresentar! Sou um apaixonado Software Engineer que está imerso no mundo da tecnologia desde 2018, quando tinha apenas 19 anos. Tenho um diploma de bacharel em Sistemas de Informação em Computação que consegui em 2019 e, nos últimos três anos, tenho trabalhado como desenvolvedor full-stack na CityConnect. Desafios alimentam minha motivação, e prospero em cenários de resolução de problemas.',
+          'Deixa eu me apresentar! Sou um apaixonado Software Engineer que está imerso no mundo da tecnologia desde 2018, quando tinha apenas 19 anos. Tenho um diploma de bacharel em Sistemas de Informação em Computação que consegui em 2019 e atualmente trabalho como desenvolvedor full-stack na Listra Digital. Desafios alimentam minha motivação, e prospero em cenários de resolução de problemas.',
         second:
-          'Seja enfrentando problemas complexos de programação ou encontrando soluções inovadoras, estou sempre pronto para o desafio. Quando não estou programando, é provável que me encontre tomando uma boa xícara de café, jogando League of Legends ou Squad, ou passando um tempo com minha querida esposa e minha gatinha chamada Kiki. Fico muito empolgado em me conectar com pessoas de mentalidade parecida, em colaborar em novos projetos e continuar minha jornada como engenheiro de software 😊',
+          'Seja enfrentando problemas complexos de programação ou encontrando soluções inovadoras, estou sempre pronto para o desafio. Sou particularmente apaixonado por tecnologias de IA e tenho usado ferramentas e agentes de IA há 3 anos, incluindo GPT, Claude, Claude Code e Gemini. Também estou muito interessado em explorar Bedrock Agents para projetos futuros. Quando não estou programando, é provável que me encontre tomando uma boa xícara de café, jogando Squad (ou algum Milsim), ou passando um tempo com minha querida esposa e minha gatinha chamada Kiki. Fico muito empolgado em me conectar com pessoas de mentalidade parecida, em colaborar em novos projetos e continuar minha jornada como engenheiro de software 😊',
       },
     },
     experience: {
       title: 'Habilidades Principais',
-      description: `Trabalho a 6 anos na área de TI, e há 5 anos trabalho como um Software Engineer, em empresas como a Unimed e a City Connect.`,
+      description: `7 anos trabalhando na área de TI, e 5 como um
+      Software Engineer, em
+      empresas como a Listra Digital, Unimed e City Connect.`,
       errorMsg: 'Erro na busca dos dados!',
       year: 'ano',
       yearPlural: 'anos',
       languages: [
         {
           name: 'react',
-          years: 3,
-        },
-        {
-          name: 'javascript',
           years: 4,
         },
         {
+          name: 'javascript',
+          years: 6,
+        },
+        {
           name: 'typescript',
-          years: 2,
+          years: 3,
         },
         {
           name: 'php',
@@ -143,14 +168,26 @@ export const t: Record<string, translationType> = {
         },
         {
           name: 'laravel',
-          years: 4,
-        },
-        {
-          name: 'mysql',
           years: 5,
         },
         {
+          name: 'mysql',
+          years: 6,
+        },
+        {
           name: 'postgreSQL',
+          years: 4,
+        },
+        {
+          name: 'docker',
+          years: 2,
+        },
+        {
+          name: 'k8s',
+          years: 1,
+        },
+        {
+          name: 'AI',
           years: 3,
         },
       ],
@@ -180,13 +217,24 @@ export const t: Record<string, translationType> = {
       },
       thirdExperience: {
         title: 'Fullstack Engineer na City Connect',
-        date: 'Jun 2021 - Atualmente',
+        date: 'Jun 2021 - Dez 2024',
         description:
           'A City Connect é uma empresa brasileira provedora de serviços que atua no mercado há mais de 13 anos, entregando soluções de inovação e tecnologia no campo de Infraestrutura de TI e Software para a Administração Pública. Como Engenheiro de Software, colaboro no desenvolvimento de sistemas web usando ReactJS e Laravel, participando ativamente dos processos delineados pela metodologia Scrum. Também realizo a manutenção de sistemas legados desenvolvidos em PHP, bem como em ReactJS/Laravel. Além disso, contribuo para o desenvolvimento e manutenção de aplicações Drupal, com foco principalmente em tarefas de frontend. Essas aplicações são hospedadas em um ambiente Azure com containerização Docker.',
         skills: {
           title: 'Habilidades',
           description:
             'Laravel, React.js, TailwindCSS, EC2, Jquery, Scrum, Desenvolvimento Frontend e Backend, Git, Docker, Drupal, MySQL, PostgreSQL.',
+        },
+      },
+      fourthExperience: {
+        title: 'Fullstack Engineer na Listra Digital',
+        date: 'Dez 2024 - Atualmente',
+        description:
+          'Como desenvolvedor fullstack na Listra Digital, arquiteto e desenvolvo aplicações web de alta performance usando Laravel 11/12 com Clean Architecture e princípios DDD. Integro frontends React via Inertia.js, criando painéis administrativos escaláveis e APIs com autenticação avançada (Keycloak/Passport) e testes abrangentes (Pest). Principais conquistas incluem: construção de rede social corporativa com sistemas de feed otimizados e estratégias extensivas de cache; desenvolvimento de plataforma de treinamento com upload de vídeos grandes (protocolo TUS) e processamento automatizado via jobs assíncronos para Vimeo; criação de sistema de geração de receitas com IA usando GPT-4 Mini e DALL-E 3 com engenharia avançada de prompts e Octane\\Concurrently para otimização de processamento paralelo. Implanto aplicações no Kubernetes com containerização Docker e dev containers, implementando cache Redis, otimização Laravel Octane e processamento assíncrono para máxima performance e escalabilidade.',
+        skills: {
+          title: 'Habilidades',
+          description:
+            'Laravel 11/12, React.js, Inertia.js, Next.js 15, Clean Architecture, DDD, Keycloak, Passport, Pest, Shadcn, Zustand, Docker, Kubernetes, Dev Containers, Redis, Octane, Git, Bitbucket.',
         },
       },
     },
