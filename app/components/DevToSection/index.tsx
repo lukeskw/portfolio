@@ -1,4 +1,4 @@
-import { LanguageProps } from '@/app/@types/language'
+import { LanguageProps } from '@/types/language'
 import ArticleCard from './ArticleCard'
 import { t } from '@/app/translations/translation'
 

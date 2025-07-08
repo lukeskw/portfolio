@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { Element } from 'react-scroll'
 import profilePic from '@/assets/images/new-profile-pic.png'
-import { LanguageProps } from '@/app/@types/language'
+import { LanguageProps } from '@/types/language'
 import { t } from '@/app/translations/translation'
 
 export default function AboutMeSection({ language: lang }: LanguageProps) {

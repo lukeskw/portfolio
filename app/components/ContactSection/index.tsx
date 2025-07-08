@@ -11,7 +11,7 @@ import {
 
 import { Link } from 'react-scroll'
 import { t } from '@/app/translations/translation'
-import { LanguageProps } from '@/app/@types/language'
+import { LanguageProps } from '@/types/language'
 
 export default function ContactSection({ language: lang }: LanguageProps) {
   return (

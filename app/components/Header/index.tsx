@@ -1,5 +1,5 @@
 'use client'
-import { LanguageProps } from '@/app/@types/language'
+import { LanguageProps } from '@/types/language'
 import ReactCountryFlag from 'react-country-flag'
 import Link from 'next/link'
 import { redirect } from 'next/navigation'

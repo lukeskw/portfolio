@@ -1,4 +1,4 @@
-import { LanguageProps } from '@/app/@types/language'
+import { LanguageProps } from '@/types/language'
 import GithubCard from './GithubCard'
 import { t } from '@/app/translations/translation'
 

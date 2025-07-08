@@ -1,4 +1,4 @@
-import { translationType } from '../@types/translation'
+import { translationType } from '@/types/translation'
 
 export const t: Record<string, translationType> = {
   'en-US': {
