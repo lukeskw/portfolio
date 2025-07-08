@@ -84,18 +84,18 @@ export const t: Record<string, translationType> = {
         title: 'Backend Engineer at Tatica Web',
         date: 'Apr 2020 - Jun 2021',
         description:
-          "With a strong web development proficiency in HTML5, CSS3, JS, PHP, Laravel, and Blade, I've created impactful websites for regional companies. Specialized in introducing new functionalities and enhancing their online presence. My initial role was a backend engineer, but with my growing desire to learn, I began immersing myself in the frontend world, and in the end, I was already tinkering with the frontend and layouts of the websites. Additionally, I've excelled in comprehensive website maintenance, focusing on optimizing user experiences. My technical expertise and attention to detail ensured exceptional websites that exceed client expectations in functionality, performance, and user satisfaction.",
+          "With a strong web development proficiency in HTML5, CSS3, Javascript, PHP, Laravel, and Blade, I've created impactful websites for regional companies. Specialized in introducing new functionalities and enhancing their online presence. My initial role was a backend engineer, but with my growing desire to learn, I began immersing myself in the frontend world, and in the end, I was already tinkering with the frontend and layouts of the websites. Additionally, I've excelled in comprehensive website maintenance, focusing on optimizing user experiences. My technical expertise and attention to detail ensured exceptional websites that exceed client expectations in functionality, performance, and user satisfaction.",
         skills: {
           title: 'Skills',
           description:
-            'HTML, CSS3, PHP 5.4 - 7.4, JS, Jquery, Git, MySQL, Laravel, Blade.',
+            'HTML, CSS3, PHP 5.4 - 7.4, Javascript, Jquery, Git, MySQL, Laravel, Blade.',
         },
       },
       thirdExperience: {
         title: 'Fullstack Engineer at City Connect',
         date: 'Jun 2021 - Jun 2024',
         description:
-          'City Connect is a Brazilian service provider company that has been operating in the market for over 13 years, delivering innovation and technology solutions in the field of IT Infrastructure and Software for Public Administration. As a Software Engineer, I collaborate in the development of web systems using ReactJS and Laravel, actively participating in the processes outlined by the Scrum methodology. I also perform maintenance on legacy systems developed in PHP, as well as ReactJS/Laravel. Additionally, I contribute to the development and maintenance of Drupal applications, primarily focusing on frontend tasks. These applications are hosted in an Azure environment with Docker containerization.',
+          'City Connect is a Brazilian service provider company that has been operating in the market for over 13 years, delivering innovation and technology solutions in the field of IT Infrastructure and Software for Public Administration. As a Software Engineer, I collaborate in the development of web systems using React.js and Laravel, actively participating in the processes outlined by the Scrum methodology. I also perform maintenance on legacy systems developed in PHP, as well as React.js/Laravel. Additionally, I contribute to the development and maintenance of Drupal applications, primarily focusing on frontend tasks. These applications are hosted in an Azure environment with Docker containerization.',
         skills: {
           title: 'Skills',
           description:
@@ -208,18 +208,18 @@ export const t: Record<string, translationType> = {
         title: 'Backend Engineer na Tatica Web',
         date: 'Abr 2020 - Jun 2021',
         description:
-          'Com proficiência sólida em desenvolvimento web em HTML5, CSS3, JS, PHP, Laravel e Blade, criei websites impactantes para empresas regionais. Especializado em introduzir novas funcionalidades e aprimorar sua presença online. Meu papel inicial era de desenvolvedor backend, mas com meu crescente desejo de aprender, comecei a me envolver no mundo do frontend, e no final, já estava mexendo com o frontend e layouts dos sites. Além disso, me destaquei na manutenção abrangente de websites, focando na otimização da experiência do usuário. Minha experiência técnica e atenção aos detalhes garantiram websites excepcionais que superam as expectativas dos clientes em termos de funcionalidade, desempenho e satisfação do usuário.',
+          'Com proficiência sólida em desenvolvimento web em HTML5, CSS3, Javascript, PHP, Laravel e Blade, criei websites impactantes para empresas regionais. Especializado em introduzir novas funcionalidades e aprimorar sua presença online. Meu papel inicial era de desenvolvedor backend, mas com meu crescente desejo de aprender, comecei a me envolver no mundo do frontend, e no final, já estava mexendo com o frontend e layouts dos sites. Além disso, me destaquei na manutenção abrangente de websites, focando na otimização da experiência do usuário. Minha experiência técnica e atenção aos detalhes garantiram websites excepcionais que superam as expectativas dos clientes em termos de funcionalidade, desempenho e satisfação do usuário.',
         skills: {
           title: 'Habilidades',
           description:
-            'HTML, CSS3, PHP 5.4 - 7.4, JS, Jquery, Git, MySQL, Laravel, Blade.',
+            'HTML, CSS3, PHP 5.4 - 7.4, Javascript, Jquery, Git, MySQL, Laravel, Blade.',
         },
       },
       thirdExperience: {
         title: 'Fullstack Engineer na City Connect',
         date: 'Jun 2021 - Jun 2024',
         description:
-          'A City Connect é uma empresa brasileira provedora de serviços que atua no mercado há mais de 13 anos, entregando soluções de inovação e tecnologia no campo de Infraestrutura de TI e Software para a Administração Pública. Como Engenheiro de Software, colaboro no desenvolvimento de sistemas web usando ReactJS e Laravel, participando ativamente dos processos delineados pela metodologia Scrum. Também realizo a manutenção de sistemas legados desenvolvidos em PHP, bem como em ReactJS/Laravel. Além disso, contribuo para o desenvolvimento e manutenção de aplicações Drupal, com foco principalmente em tarefas de frontend. Essas aplicações são hospedadas em um ambiente Azure com containerização Docker.',
+          'A City Connect é uma empresa brasileira provedora de serviços que atua no mercado há mais de 13 anos, entregando soluções de inovação e tecnologia no campo de Infraestrutura de TI e Software para a Administração Pública. Como Engenheiro de Software, colaboro no desenvolvimento de sistemas web usando React.js e Laravel, participando ativamente dos processos delineados pela metodologia Scrum. Também realizo a manutenção de sistemas legados desenvolvidos em PHP, bem como em React.js/Laravel. Além disso, contribuo para o desenvolvimento e manutenção de aplicações Drupal, com foco principalmente em tarefas de frontend. Essas aplicações são hospedadas em um ambiente Azure com containerização Docker.',
         skills: {
           title: 'Habilidades',
           description:
