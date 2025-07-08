@@ -23,6 +23,12 @@ async function getRepositories(username: string): Promise<GithubApiReturn[]> {
   )
 
   const repositories = await response.json()
+  
+  if (!Array.isArray(repositories)) {
+    console.error('GitHub API error:', repositories)
+    return []
+  }
+
   const data = await Promise.all(
     repositories.reverse().map(async (repo: GithubApiReturn) => {
       const languagesResponse = await fetch(repo.languages_url)
