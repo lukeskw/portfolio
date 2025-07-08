@@ -1,4 +1,4 @@
-import spinner from 'assets/images/spinner.svg'
+import spinner from '@/assets/images/spinner.svg'
 import Image from 'next/image'
 
 export default function Loading() {

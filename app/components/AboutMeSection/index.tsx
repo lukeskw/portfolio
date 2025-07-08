@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import { Element } from 'react-scroll'
-import profilePic from 'assets/images/new-profile-pic.png'
+import profilePic from '@/assets/images/new-profile-pic.png'
 import { LanguageProps } from '@/app/@types/language'
 import { t } from '@/app/translations/translation'
 
