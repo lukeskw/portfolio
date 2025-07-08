@@ -25,12 +25,35 @@ export default function ExperienceSection({ language: lang }: LanguageProps) {
             "
           >
             <h2 className="ml-3 text-lg font-bold md:ml-0 md:text-xl lg:text-2xl">
+              {t[lang]?.workExperiences?.fourthExperience?.title}
+            </h2>
+            <h4 className="ml-3 pb-4 text-base md:ml-0 md:text-lg">
+              {t[lang]?.workExperiences?.fourthExperience?.date}
+            </h4>
+            <p className="rounded-lg p-2 text-justify text-sm md:bg-zinc-925 md:p-4 md:text-base lg:text-lg">
+              {t[lang]?.workExperiences?.fourthExperience?.description}
+              <br />
+              <br />
+              <b>
+                {t[lang]?.workExperiences?.fourthExperience?.skills?.title}:{' '}
+              </b>
+              {t[lang]?.workExperiences?.fourthExperience?.skills?.description}
+            </p>
+          </div>
+          <div
+            className="event border-l-4 border-zinc-700/80 px-2 py-4
+            before:absolute before:left-0 before:inline-block before:h-4
+            before:w-4 before:-translate-x-[40%] before:translate-y-[50%] before:rounded-full before:bg-zinc-200
+            before:content-[''] md:px-8
+            "
+          >
+            <h2 className="ml-3 text-lg font-bold md:ml-0 md:text-xl lg:text-2xl">
               {t[lang]?.workExperiences?.thirdExperience?.title}
             </h2>
             <h4 className="ml-3 pb-4 text-base md:ml-0 md:text-lg">
               {t[lang]?.workExperiences?.thirdExperience?.date}
             </h4>
-            <p className="rounded-lg p-2 text-justify text-sm md:bg-zinc-925 md:p-4 md:text-base lg:text-lg">
+            <p className="rounded-lg p-2 text-justify text-sm md:p-4 md:text-base lg:text-lg">
               {t[lang]?.workExperiences?.thirdExperience?.description}
               <br />
               <br />
@@ -58,7 +81,8 @@ export default function ExperienceSection({ language: lang }: LanguageProps) {
               <br />
               <br />
               <b>
-                {t[lang]?.workExperiences?.secondExperience?.skills?.title}:{' '}
+                {t[lang]?.workExperiences?.secondExperience?.skills?.title}
+                :{' '}
               </b>{' '}
               {t[lang]?.workExperiences?.secondExperience?.skills?.description}
             </p>
