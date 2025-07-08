@@ -23,7 +23,7 @@ async function getRepositories(username: string): Promise<GithubApiReturn[]> {
   )
 
   const repositories = await response.json()
-  
+
   if (!Array.isArray(repositories)) {
     console.error('GitHub API error:', repositories)
     return []

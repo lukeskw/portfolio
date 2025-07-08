@@ -35,7 +35,8 @@ export default function ExperienceSection({ language: lang }: LanguageProps) {
               <br />
               <br />
               <b>
-                {t[lang]?.workExperiences?.fourthExperience?.skills?.title}:{' '}
+                {t[lang]?.workExperiences?.fourthExperience?.skills?.title}
+                :{' '}
               </b>
               {t[lang]?.workExperiences?.fourthExperience?.skills?.description}
             </p>
