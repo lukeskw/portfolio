@@ -14,13 +14,16 @@ export const metadata = {
 
 export default function RootLayout({
   children,
+  types,
 }: {
   children: React.ReactNode
+  types: React.ReactNode
 }) {
   return (
     <html className="light" lang="en">
       <body className={jetbrains.className}>
         {children}
+        {types}
         <SpeedInsights />
         <Analytics />
       </body>
