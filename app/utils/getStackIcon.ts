@@ -11,6 +11,9 @@ export function getStackIcon(name: string): string {
     laravel: require('@/assets/images/laravel-icon.svg'),
     mysql: require('@/assets/images/mysql-icon.svg'),
     postgreSQL: require('@/assets/images/postgresql-icon.svg'),
+    AI: require('@/assets/images/ai-icon.svg'),
+    docker: require('@/assets/images/docker-icon.svg'),
+    k8s: require('@/assets/images/kubernetes-icon.svg'),
   }
 
   return stackIcons[name] || ''
