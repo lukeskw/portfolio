@@ -217,7 +217,7 @@ export const t: Record<string, translationType> = {
       },
       thirdExperience: {
         title: 'Fullstack Engineer na City Connect',
-        date: 'Jun 2021 - Dez 2024',
+        date: 'Jun 2021 - Jun 2024',
         description:
           'A City Connect é uma empresa brasileira provedora de serviços que atua no mercado há mais de 13 anos, entregando soluções de inovação e tecnologia no campo de Infraestrutura de TI e Software para a Administração Pública. Como Engenheiro de Software, colaboro no desenvolvimento de sistemas web usando ReactJS e Laravel, participando ativamente dos processos delineados pela metodologia Scrum. Também realizo a manutenção de sistemas legados desenvolvidos em PHP, bem como em ReactJS/Laravel. Além disso, contribuo para o desenvolvimento e manutenção de aplicações Drupal, com foco principalmente em tarefas de frontend. Essas aplicações são hospedadas em um ambiente Azure com containerização Docker.',
         skills: {
@@ -228,7 +228,7 @@ export const t: Record<string, translationType> = {
       },
       fourthExperience: {
         title: 'Fullstack Engineer na Listra Digital',
-        date: 'Dez 2024 - Atualmente',
+        date: 'Jun 2024 - Atualmente',
         description:
           'Como desenvolvedor fullstack na Listra Digital, arquiteto e desenvolvo aplicações web de alta performance usando Laravel 11/12 com Clean Architecture e princípios DDD. Integro frontends React via Inertia.js, criando painéis administrativos escaláveis e APIs com autenticação avançada (Keycloak/Passport) e testes abrangentes (Pest). Principais conquistas incluem: construção de rede social corporativa com sistemas de feed otimizados e estratégias extensivas de cache; desenvolvimento de plataforma de treinamento com upload de vídeos grandes (protocolo TUS) e processamento automatizado via jobs assíncronos para Vimeo; criação de sistema de geração de receitas com IA usando GPT-4 Mini e DALL-E 3 com engenharia avançada de prompts e Octane\\Concurrently para otimização de processamento paralelo. Implanto aplicações no Kubernetes com containerização Docker e dev containers, implementando cache Redis, otimização Laravel Octane e processamento assíncrono para máxima performance e escalabilidade.',
         skills: {
@@ -241,7 +241,7 @@ export const t: Record<string, translationType> = {
     devTo: {
       title: 'Meus Posts no Dev.to',
       reactions: 'Reações',
-      pubDate: 'Date de Publicação',
+      pubDate: 'Data de Publicação',
       noArticles: 'Não foram encontrados artigos!',
     },
     git: {
