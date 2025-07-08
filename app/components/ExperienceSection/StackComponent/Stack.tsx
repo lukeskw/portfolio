@@ -23,8 +23,8 @@ export function Stack({ stack, language }: StackProps) {
         width:
           stack.years === 1
             ? '30%'
-            : stack.years !== 5
-              ? `${(stack.years / 5) * 100}%`
+            : stack.years !== 6
+              ? `${(stack.years / 6) * 100}%`
               : '100%',
         opacity: 1,
       })
